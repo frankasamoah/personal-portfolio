@@ -88,7 +88,7 @@ const NavBar = () => {
             skills
           </Link>
           <Link
-            to="contact" smooth duration={500}
+            to="contact" smooth duration={700}
             onClick={() => setClick(!click)}
             className="px-4 py-6 text-2xl cursor-pointer capitalize hover:scale-105 hover:text-white text-gray-500 duration-200"
           >
