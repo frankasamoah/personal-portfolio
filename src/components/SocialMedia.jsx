@@ -53,7 +53,7 @@ const SocialMedia = () => {
           download="true"
         >
           <a
-            href="/lebenslauf.pdf"
+            href="/resume.pdf"
             className="flex justify-between items-center w-full text-white"
             target="_blank"
             rel="noreferrer"
