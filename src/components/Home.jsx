@@ -10,7 +10,7 @@ const Home = () => {
       name="home"
       className="w-full bg-gradient-to-b from-black via-black to-gray-800 md:h-fit"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col justify-center items-center px-4 py-60 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col justify-center items-center px-4 py-36 md:py-60 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className=" text-4xl sm:text-5xl text-white font-bold">
             Full Stack web developer
@@ -33,7 +33,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div>
+        <div className="pt-5">
           <img
             src={profileImage}
             alt="personal profile"

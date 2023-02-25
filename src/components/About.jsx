@@ -21,7 +21,7 @@ const About = () => {
             better place... everyone says that but in my case, I mean it!
           </p>
           <br />
-          <p className="text-xl mt-4">
+          <div className="text-xl mt-4">
             I'm a coding enthusiast who loves nothing more than a good challenge
             (except maybe football - I really love football). I'm constantly
             looking for ways to expand my skill set and tackle new projects.
@@ -42,7 +42,7 @@ const About = () => {
               practically-oriented and a total eye-opener. I've always enjoyed
               finding creative ways to explain complex concepts to others.
             </p>
-          </p>
+          </div>
           <br />
           <p className="text-xl mt-4">
             As a junior web developer, I'm constantly learning and growing in my
@@ -55,7 +55,9 @@ const About = () => {
           <br />
           <p className="text-xl mt-4">
             When I'm not coding up a storm, you can find me binge-watching my
-            favorite TV shows (comdey, my recommendations are flawless), playing some games on PlayStation, or walking in the woods (I'm lucky enough to live close to one).
+            favorite TV shows (comdey, my recommendations are flawless), playing
+            some games on PlayStation, or walking in the woods (I'm lucky enough
+            to live close to one).
           </p>
           <br />
           <p className="text-xl mt-4">
@@ -70,7 +72,8 @@ const About = () => {
           <p className="text-xl mt-4"></p>
           <br />
           <p className="text-xl mt-4">
-            Let's build something awesome together and maybe share a few laughs along the way!
+            Let's build something awesome together and maybe share a few laughs
+            along the way!
           </p>
         </div>
       </div>

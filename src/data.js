@@ -21,17 +21,6 @@ export const projects = [
     description:
       "Find your IP address, time and other related information in this application. Has map feature as well",
   },
-  // {
-  //   id: 3,
-  //   title: "Chat App",
-  //   code: "MERN stack ",
-  //   src: reactSmooth,
-  //   preview: "https://google.com",
-  //   description:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-  // },
-  
-  
   
 ];
 
@@ -106,5 +95,20 @@ export const technologies = [
     id: 14,
     title: "FIGMA",
     style: "shadow-red-300",
+  },
+  {
+    id: 15,
+    title: "GIT",
+    style: "shadow-green-500",
+  },
+  {
+    id: 16,
+    title: "CI/CD",
+    style: "shadow-yellow-500",
+  },
+  {
+    id: 17,
+    title: "GITHUB",
+    style: "shadow-white",
   },
 ];

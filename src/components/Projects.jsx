@@ -7,7 +7,7 @@ const Projects = () => {
       name="projects"
       className="bg-gradient-to-b from-gray-800 to-black w-full text-white"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full py-60">
+      <div className="max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full py-60">
         <div className="pb-12">
           <p className="text-3xl font-bold inline border-b-4 border-gray-500">
             Projects
