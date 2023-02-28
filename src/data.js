@@ -1,6 +1,7 @@
 
 import vidapp from "./assets/vidapp.png";
 import ipfinder from "./assets/ipfinder.png";
+import befitgym from "./assets/befitgym.png";
 
 export const projects = [
   {
@@ -20,6 +21,15 @@ export const projects = [
     preview: "https://richtig-ip-finder.netlify.app",
     description:
       "Find your IP address, time and other related information in this application. Has map feature as well",
+  },
+  {
+    id: 3,
+    title: "Gym App",
+    code: "React JS and APIs",
+    src: befitgym,
+    preview: "https://befitgymapp.netlify.app",
+    description:
+      "Get thousands of specialized workouts on the app as well as resource on youtube",
   },
   
 ];
