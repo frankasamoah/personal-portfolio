@@ -16,7 +16,7 @@ const Projects = () => {
 
         <div className="flex flex-wrap -m-4 ">
           {projects.map(({ id, src, preview, code, title, description }) => (
-            <a href={preview} key={id} className="sm:w-1/2 p-4">
+            <a href={preview} key={id} className="sm:w-1/2 p-4" target="_blank" rel="noreferrer">
               <div className="flex relative flex-col">
                 <img
                   alt="gallery"
