@@ -2,6 +2,7 @@
 import vidapp from "./assets/vidapp.png";
 import ipfinder from "./assets/ipfinder.png";
 import befitgym from "./assets/befitgym.png";
+import vectalk from "./assets/vectalk.png";
 
 export const projects = [
   {
@@ -30,6 +31,15 @@ export const projects = [
     preview: "https://befitgymapp.netlify.app",
     description:
       "Get thousands of specialized workouts on the app as well as resource on youtube",
+  },
+  {
+    id: 4,
+    title: "Chat App",
+    code: "React JS and Node.JS",
+    src: vectalk,
+    preview: "https://vectalk.netlify.app",
+    description:
+      "Live chat application with NodeJS as backend, MongoDB and socket.io for live chatting",
   },
   
 ];
