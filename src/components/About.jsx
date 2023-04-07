@@ -16,7 +16,7 @@ const About = () => {
 
         <div>
           <p className="text-xl ">
-            Hello and welcome to my portfolio! My name is <b>Frank Asamoah</b>,
+            Hello and welcome to my portfolio! My name is <b className=" underline decoration-sky-500">Frank Asamoah</b>,
             and I am a junior web developer. I'm here to make the internet a
             better place... everyone says that but in my case, I mean it!
           </p>

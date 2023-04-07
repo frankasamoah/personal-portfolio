@@ -1,8 +1,9 @@
 
 import vidapp from "./assets/vidapp.png";
-import ipfinder from "./assets/ipfinder.png";
+import ipchecker from "./assets/ipchecker.png";
 import befitgym from "./assets/befitgym.png";
 import vectalk from "./assets/vectalk.png";
+import ecomaze from "./assets/ecomaze.png";
 
 export const projects = [
   {
@@ -16,12 +17,12 @@ export const projects = [
   },
   {
     id: 2,
-    title: "IP finder",
+    title: "IP Checker",
     code: "React JS and APIs",
-    src: ipfinder,
-    preview: "https://richtig-ip-finder.netlify.app",
+    src: ipchecker,
+    preview: "https://ip-domain-checker.netlify.app",
     description:
-      "Find your IP address, time and other related information in this application. Has map feature as well",
+      "Frontend Mentor challenge. Find your IP address and domain. Has a map feature as well.",
   },
   {
     id: 3,
@@ -35,11 +36,20 @@ export const projects = [
   {
     id: 4,
     title: "Chat App",
-    code: "React JS and Node.JS",
+    code: "MERN Stack",
     src: vectalk,
     preview: "https://vectalk.netlify.app",
     description:
       "Live chat application with NodeJS as backend, MongoDB and socket.io for live chatting",
+  },
+  {
+    id: 5,
+    title: "Webshop App",
+    code: "MERN Stack",
+    src: ecomaze,
+    preview: "",
+    description:
+      "Web store with full-fledged functionalities as well as future payment system using braintree",
   },
   
 ];
@@ -130,5 +140,10 @@ export const technologies = [
     id: 17,
     title: "GITHUB",
     style: "shadow-white",
+  },
+  {
+    id: 18,
+    title: "FASTAPI",
+    style: "shadow-blue-400",
   },
 ];
