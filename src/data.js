@@ -4,6 +4,7 @@ import ipchecker from "./assets/ipchecker.png";
 import befitgym from "./assets/befitgym.png";
 import vectalk from "./assets/vectalk.png";
 import ecomaze from "./assets/ecomaze.png";
+import agilize from "./assets/agilize.png";
 
 export const projects = [
   {
@@ -11,6 +12,7 @@ export const projects = [
     title: "Video player",
     src: vidapp,
     preview: "https://vidio-player.netlify.app",
+    github: "https://github.com/frankasamoah/video-player",
     description:
       "Vidio is the best video player out there. It's smooth and responsive",
     code: "React JS",
@@ -21,6 +23,7 @@ export const projects = [
     code: "React JS and APIs",
     src: ipchecker,
     preview: "https://ip-domain-checker.netlify.app",
+    github: "https://github.com/frankasamoah/find-my-ip",
     description:
       "Frontend Mentor challenge. Find your IP address and domain. Has a map feature as well.",
   },
@@ -30,6 +33,7 @@ export const projects = [
     code: "React JS and APIs",
     src: befitgym,
     preview: "https://befitgymapp.netlify.app",
+    github: "https://github.com/frankasamoah/be-fit-gym",
     description:
       "Get thousands of specialized workouts on the app as well as resource on youtube",
   },
@@ -39,6 +43,7 @@ export const projects = [
     code: "MERN Stack",
     src: vectalk,
     preview: "https://vectalk.netlify.app",
+    github: "https://github.com/frankasamoah/vectalkfrontend",
     description:
       "Live chat application with NodeJS as backend, MongoDB and socket.io for live chatting",
   },
@@ -48,8 +53,19 @@ export const projects = [
     code: "MERN Stack",
     src: ecomaze,
     preview: "",
+    github: "",
     description:
       "Web store with full-fledged functionalities as well as future payment system using braintree",
+  },
+  {
+    id: 6,
+    title: "Todo List",
+    code: "ReactJS",
+    src: agilize,
+    preview: "https://todo-agilize.netlify.app",
+    github: "https://github.com/frankasamoah/to-do-list",
+    description:
+      "To do app for scheduling and planning activities to be reviewed and completed",
   },
   
 ];
