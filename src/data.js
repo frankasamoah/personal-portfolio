@@ -45,17 +45,17 @@ export const projects = [
     preview: "https://vectalk.netlify.app",
     github: "https://github.com/frankasamoah/vectalkfrontend",
     description:
-      "Live chat application with NodeJS as backend, MongoDB and socket.io for live chatting",
+      "Live chat application with NodeJS as backend, MongoDB and socket.io for live chatting || STILL WORKING ON IT",
   },
   {
     id: 5,
     title: "Webshop App",
     code: "MERN Stack",
     src: ecomaze,
-    preview: "",
-    github: "",
+    preview: "https://ecomaze.netlify.app",
+    github: "https://github.com/frankasamoah/ecomazefrontend",
     description:
-      "Web store with full-fledged functionalities as well as future payment system using braintree",
+      "Web store with full-fledged functionalities as well as future payment system using braintree || STILL WORKING ON IT",
   },
   {
     id: 6,
